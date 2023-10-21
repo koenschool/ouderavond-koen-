@@ -1,0 +1,256 @@
+body {background-color: #85A27A;}
+html {font-size: 62.5%;}
+.row{
+  flex-direction: row;
+}
+
+a {color: #016241; font-size: x-large; font-weight: 1000; font-family: Inter;}
+h1 {color: #016241; font-size: xx-large; font-weight: 1000; font-family: Inter;}
+img {border-radius: 5%; 
+scale: 90%;}
+.white-square {
+  display:flex;
+    margin-left: 20px;
+    width: flex;
+    height: flex;
+    background-color: white;}
+    .white-square-canvas {
+      display:felx;
+        margin-left: 20px;
+        width: flex;
+        height:flex;
+        background-color: white;
+    }
+    
+
+    .text1{
+      color: #016241;
+      font-size: xx-small;
+      font-weight: 1000;
+      font-family: Inter;
+      position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:  #85A27A;
+        text-align: left;
+      }
+  .read-more-state {
+    display: none;
+   }
+  
+   .read-more-target {
+    opacity: 0;
+    max-height: 0;
+    font-size: 30px;
+    transition: .25s linear ;
+    color: #016241;
+    font-family: inter;
+
+  }
+  
+  .read-more-state:checked ~ .read-more-wrap .read-more-target {
+    opacity: 1;
+    font-size: inter;
+    max-height: 999em;
+  }
+  
+  .read-more-state ~ .read-more-trigger:before {
+    content: 'Windows↓';
+  }
+  
+  .read-more-state:checked ~ .read-more-trigger:before {
+    content: 'Windows↑';
+  }
+  
+  .read-more-trigger {
+    
+    top: 100x;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #016241;
+    font-size: 50px;
+    line-height: 2;
+    border: 1px solid white;
+    border-radius: .25em;
+    font-family: inter;
+  }
+  
+  body {
+    padding: 2%;
+  }
+  
+  p {
+    padding: 2%;
+    color: #016241;
+    font-family: inter;
+    font-size: x-large;
+  }
+  .read-more-state3 {
+    display: none;
+   }
+  
+   .read-more-target3 {
+    opacity: 0;
+    max-height: 0;
+    font-size: 30px;
+    transition: .25s linear ;
+    color: #016241;
+    font-family: inter;
+  }
+  
+  .read-more-state3:checked ~ .read-more-wrap3 .read-more-target3 {
+    opacity: 1;
+    font-size: inter;
+    max-height: 999em;
+  }
+  
+  .read-more-state3 ~ .read-more-trigger3:before {
+    content: 'Laptop specificaties↓';
+  }
+  
+  .read-more-state3:checked ~ .read-more-trigger3:before {
+    content: 'Laptop specificaties↑';
+  }
+  
+  .read-more-trigger3 {
+    
+    top: 100x;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #016241;
+    font-size: 50px;
+    line-height: 2;
+    border: 1px solid white;
+    border-radius: .25em;
+    font-family: inter;
+  }
+  
+  body {
+    padding: 2%;
+  }
+  
+  p {
+    padding: 2%;
+    color: #016241;
+    font-family: inter;
+    font-size: x-large;
+  }
+  .dropdown-pos3{
+    position: center;
+    
+  }
+
+  .read-more-state2 {
+    display: none;
+   }
+  
+   .read-more-target2 {
+    opacity: 0;
+    max-height: 0;
+    font-size: 30px;
+    transition: .25s linear ;
+    color: #016241;
+    font-family: inter;
+  }
+  
+  .read-more-state2:checked ~ .read-more-wrap2 .read-more-target2 {
+    opacity: 1;
+    font-size: inter;
+    max-height: 999em;
+  }
+  
+  .read-more-state2 ~ .read-more-trigger2:before {
+    content: 'Visual Studio Code↓';
+  }
+  
+  .read-more-state2:checked ~ .read-more-trigger2:before {
+    content: 'Visual Studio Code↑';
+  }
+  
+  .read-more-trigger2 {
+    
+    top: 100x;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #016241;
+    font-size: 50px;
+    line-height: 2;
+    border: 1px solid white;
+    border-radius: .25em;
+    font-family: inter;
+  }
+  
+  body {
+    padding: 2%;
+  }
+  
+  p {
+    padding: 2%;
+    color: #016241;
+    font-family: inter;
+    font-size: x-large;
+  }
+  .dropdown-pos2{
+    position: center;
+    
+  }
+
+  .read-more-state4 {
+    display: none;
+   }
+  
+   .read-more-target4 {
+    opacity: 0;
+    max-height: 0;
+    font-size: 30px;
+    transition: .25s linear ;
+    color: #016241;
+    font-family: inter;
+  }
+  
+  .read-more-state4:checked ~ .read-more-wrap4 .read-more-target4 {
+    opacity: 1;
+    font-size: inter;
+    max-height: 999em;
+  }
+  
+  .read-more-state4 ~ .read-more-trigger4:before {
+    content: 'Github↓';
+  }
+  
+  .read-more-state4:checked ~ .read-more-trigger4:before {
+    content: 'Github↑';
+  }
+  
+  .read-more-trigger4 {
+    
+    top: 100x;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 .5em;
+    color: #016241;
+    font-size: 50px;
+    line-height: 2;
+    border: 1px solid white;
+    border-radius: .25em;
+    font-family: inter;
+  }
+  
+  body {
+    padding: 2%;
+  }
+  
+  p {
+    padding: 2%;
+    color: #016241;
+    font-family: inter;
+    font-size: x-large;
+  }
+  .dropdown-pos4{
+    position: center;
+    
+  }
