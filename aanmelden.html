@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aanmelden</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+</head>
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">
+          <img src="images/menu_icon.png" height="100%" width="100%" alt="menu">
+        </button>
+        <div class="dropdown-content">
+          <a href="eduarte.html">Eduarte</a>
+          <a href="canvas.html">Canvas</a>
+          <a href="locatiegids.html">Locatiegids</a>
+          <a href="opleidingwijzer.html">Opleidingwijzer</a>
+          <a href="begleiding.html">Begeleiding</a>
+          <a href="software.html">Software</a>
+          <a href="aanmelden.html">Aanmelden</a>
+        </div>
+      </div>
+
+    <img src="./images/logo-techniek-college.png" width="20%" height="20%">
+<div class="white-square-canvas">
+
+    <h1>Aanmelden</h1>
+    <form action="" autocomplete="on">
+        <label for="name">voornaam</label><br>
+        <input type="text" name="voornaam" onkeydown="return /[a-zA-Z]/i.test(event.key)" required><br>
+    <label for="name">achternaam</label><br>
+    <input type="text" name="achternaam" onkeydown="return /[a-zA-Z]/i.test(event.key)" required><br>
+    vakantieland<br>
+    <input type="radio" id="20-10-2023" name="datum" value="20-10-2023" required>
+    <label for="20-10-2023">20-10-2023</label><br>
+    <input type="radio" id="21-10-2023" name="datum" value="21-10-2023" required>
+    <label for="21-10-2023">21-10-2023</label><br>
+    <input type="radio" id="22-10-2023" name="datum" value="22-10-2023" required>
+    <label for="22-10-2023">22-10-2023</label><br>
+        <label for="points">hoeveel mensen komen er? (max 4 mensen)</label><br>
+    <input type="number" id="mensen" name="mensen" min="1" max="4" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" autocomplete="off" required><br>
+    <input type="submit" value="boek nu">
+  </form>
+</body>
+</html>
